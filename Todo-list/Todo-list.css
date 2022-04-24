@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+    font-family: cursive;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#8D8DAA;
+    color: aliceblue;
+}
+header{
+    padding: 2rem,1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.head{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 7px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+   
+}
+#task-form{
+    display: flex;
+}
+input{
+    border: none;
+    outline: none;
+    appearance: none;
+}
+button{
+    outline: none;
+    appearance: none;
+    border: none;
+}
+#task-input{
+    flex: 1 1 0%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 7px;
+    font-size: 1.2rem;
+}
+#task-submit{
+    background-color:#484863;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    
+}
+#task-submit:hover{
+    opacity: 0.8;
+
+}
+#task-submit:active{
+    opacity: 0.6;
+}
+
+main{
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list{
+    padding: 1rem;
+    
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+    
+}
+.text{
+    background: none;
+    font-size: 1.21rem;
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    background-color: #484863;
+    
+}
+
+#tasks .task{
+    justify-content: space-between;
+    display: flex;
+    padding: 2.5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    
+}
+.content{
+    flex: 1 1 0%;
+}
+.edit{
+    background: none;
+    font-size: 1rem;
+    
+    font-weight: 600;
+    margin-left: -3px;
+    
+    
+}
+.delete{
+    background: none;
+    font-size: 1rem;
+    margin-left: -1px;
+    font-weight: 600;
+   
+   
+    
+}
+.text:not(:read-only){
+    color: grey;
+}
+.actions{
+    cursor: pointer;
+}
+.actions button:hover{
+opacity: 0.6;
+}

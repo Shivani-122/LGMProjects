@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="student.css">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="left">
+            <form class="enrollment">
+                <label for="Name">Name : </label>
+                <input type="text" id="Name" autocomplete="off" Name><br>
+
+                <label for="Email">Email : </label>
+                <input type="email" id="Email" autocomplete="off" Email><br>
+
+
+
+                <label for="Image">Image : </label>
+                <input type="file" id="Image" class=" custom-file-input" onchange="image(e)">
+
+                <label for="Gender" class="gender">Gender
+
+                    <input type="radio" name="Gender" class="g1" id="Male" value="Male">Male
+
+                    <input type="radio" name="Gender" class="g1" id="Female" value="Female">Female
+
+                </label>
+                <label for="Skills" class="skills">Skills 
+
+                    <input type="checkbox" id="html" class="skl" value="HTML"> HTML
+
+
+                    <input type="checkbox" id="css" class="skl" value="CSS">CSS
+
+                    <input type="checkbox" id="Javascript" class="skl" value="Javascript">JavaScript
+
+                </label>
+
+                <div class="btn">
+                    <button type="button" id="btn" class="button">Submit</button>
+
+                </div>
+            </form>
+        </div>
+        <div class="Vertical_line"></div>
+        <div class="right">
+            <h1 class="Enrolled">Enrolled Students</h1>
+            <div class="cards"></div>
+        </div>
+    </div>
+
+    <script src="student.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to left, #33ccff, #ff99cc);
+    color: #fff;
+}
+
+.main {
+    display: flex;
+}
+
+.enrollment {
+    padding: 30px;
+}
+
+.enrollment>input {
+    background: none;
+    border: 1px solid white;
+    outline: none;
+    padding: 7px;
+    width: 50%;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    margin-left: 20px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.name {
+    display: flex;
+}
+
+.gender,
+.skills {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input[type=radio],
+input[ type=checkbox] {
+    transform: scale(1.3);
+
+    margin-right: 10px;
+
+    margin-left: 40px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    outline: none;
+    background: none;
+    color: #fff;
+    border-radius: 5px;
+    border-color: 2px solid white;
+    width: 75px;
+    height: 25px;
+    letter-spacing: 1px;
+    margin: 10px 10px 10px 5px;
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.main {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.Vertical_line {
+    border-left: 2px solid #fff;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.Enrolled {
+    margin-top: 2rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    border: 2px solid white;
+    padding: 20px 30px;
+    text-align: center;
+    background: none;
+}
+
+.image>img {
+    width: 120px;
+    margin: 10px;
+    height: 120px;
+}
+
+.title {
+    font-size: 20px;
+    margin: 7px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.btn {
+    width: 400px;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+}
